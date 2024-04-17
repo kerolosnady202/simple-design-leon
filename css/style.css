@@ -55,7 +55,7 @@ body{
 }
 @media (max-width: 767px){
     .spical-header{
-        font-size:80px;
+        font-size:60px;
     } 
     .spical-header + p{
         margin: -20px;  
@@ -95,7 +95,6 @@ body{
  height: 4px;
  margin-bottom: 5px;
  background-color: #333;
- 
 }
 
 .header .container .links .icon span:nth-child(2){
@@ -106,6 +105,7 @@ body{
     list-style-type: none;
     position: absolute;
     display: none;
+    /* top: calc(100% + 15px); */
     top: calc(100% + 15px);
     right:0px;
     background-color: #f6f6f6;
@@ -155,7 +155,6 @@ body{
    transform: translate(-50%,-50%);
    text-align: center;
    width: 300px;
-   
 }
 .landing .intro-text h1{
     margin: 0px;
@@ -167,6 +166,7 @@ body{
 .landing .intro-text p{
     margin: 0px;
     line-height: 1.6;
+  
 }
 /* end landing section */
 /* start features */
@@ -185,7 +185,8 @@ body{
     text-align: center;
 }
 .feature .feat:hover{ 
-   box-shadow: 2px 2px 20px rgb(95, 94, 94) ,-2px -2px 20px rgb(95, 94, 94);
+/*    box-shadow: 2px 2px 20px rgb(95, 94, 94) ,-2px -2px 20px rgb(95, 94, 94); */
+box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
    transform: scale(1.1);
 }
 .feature .feat i{ 
